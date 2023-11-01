@@ -1,6 +1,5 @@
 
 import mysql from "mysql2/promise";
-
 // Conectar a base de datos
 export const db = await mysql.createConnection({
   host: "localhost",
